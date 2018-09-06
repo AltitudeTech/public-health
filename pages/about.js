@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Head from "next/head";
 import SvgLoader from "bv-react-svgloader";
 import Layout from "../component/Layout";
+import Personnel from "../component/Personnel";
 
 export default class Index extends Component {
   render() {
@@ -97,84 +98,12 @@ export default class Index extends Component {
               adipisicing elit. Qui temporibus aliquid dignissimos dolor aut at,
               libero est obcaecati atque culpa.
             </p>
-            <div className="col-md-4">
-              <div className="card" style={{ border: "0", width: "18rem" }}>
-                <img
-                  className="card-img-top"
-                  src="https://via.placeholder.com/350x350"
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <h4 clasName="card-title">Name of Personnel</h4>
-                  <p className="card-text text-center">Expertise</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card" style={{ border: "0", width: "18rem" }}>
-                <img
-                  className="card-img-top"
-                  src="https://via.placeholder.com/350x350"
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <h4 clasName="card-title">Name of Personnel</h4>
-                  <p className="card-text text-center">Expertise</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card" style={{ border: "0", width: "18rem" }}>
-                <img
-                  className="card-img-top"
-                  src="https://via.placeholder.com/350x350"
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <h4 clasName="card-title">Name of Personnel</h4>
-                  <p className="card-text text-center">Expertise</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card" style={{ border: "0", width: "18rem" }}>
-                <img
-                  className="card-img-top"
-                  src="https://via.placeholder.com/350x350"
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <h4 clasName="card-title">Name of Personnel</h4>
-                  <p className="card-text text-center">Expertise</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card" style={{ border: "0", width: "18rem" }}>
-                <img
-                  className="card-img-top"
-                  src="https://via.placeholder.com/350x350"
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <h4 clasName="card-title">Name of Personnel</h4>
-                  <p className="card-text text-center">Expertise</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card" style={{ border: "0", width: "18rem" }}>
-                <img
-                  className="card-img-top"
-                  src="https://via.placeholder.com/350x350"
-                  alt="Card image cap"
-                />
-                <div className="card-body">
-                  <h4 clasName="card-title">Name of Personnel</h4>
-                  <p className="card-text text-center">Expertise</p>
-                </div>
-              </div>
-            </div>
+            <Personnel />
+            <Personnel />
+            <Personnel />
+            <Personnel />
+            <Personnel />
+            <Personnel />
           </div>
 
           <div className="row">

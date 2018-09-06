@@ -32,8 +32,9 @@ export default ({ children }) => (
               <SvgLoader src="/static/images/phlogo.svg" />
             </a>
           </Link>
+          <Link href="/support">
+          <a style={{color:'#000'}}>
           <p
-            href="#"
             style={{
               border: "1px solid #12890E",
               paddingLeft: "30px",
@@ -47,6 +48,8 @@ export default ({ children }) => (
           >
             SUPPORT <SvgLoader src="/static/images/supportIcon.svg" />
           </p>
+          </a>
+          </Link>
         </div>
         <Menu />
       </header>

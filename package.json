@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "adetona sunday",
   "license": "MIT",
+  "engines": {
+    "node": "10.1.0",
+    "yarn": "1.9.4"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
