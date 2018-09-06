@@ -52,7 +52,7 @@ export default class Index extends Component {
             <h2 className="text-success">Chief Executive Officer</h2>
             <div className="card-body" style={{ padding: "0px" }}>
               <img
-                src="/static/images/ceo.PNG"
+                src="/static/images/ceo.png"
                 className=" img-responsive img-fluid float-left float-sm-right float-md-left float-lg-right float-xl-left mr-3 mb-3"
               />
               <p>
