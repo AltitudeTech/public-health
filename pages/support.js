@@ -7,7 +7,7 @@ import SupportBox from "../component/SupportBox";
 export default class Index extends Component {
   render() {
     return (
-      <Layout>
+      <Layout active="support">
         <Head>
           <title>PH :: Home</title>
         </Head>

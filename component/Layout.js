@@ -33,22 +33,9 @@ export default ({ children }) => (
             </a>
           </Link>
           <Link href="/support">
-          <a style={{color:'#000'}}>
-          <p
-            style={{
-              border: "1px solid #12890E",
-              paddingLeft: "30px",
-              borderRadius: "50px",
-              paddingRight: "30px",
-              lineHeight: "30px",
-              fontSize: "15px",
-              fontWeight: "bold",
-              marginTop: "10px"
-            }}
-          >
-            SUPPORT <SvgLoader src="/static/images/supportIcon.svg" />
-          </p>
-          </a>
+            <a className="btn btn-link support">
+              SUPPORT <SvgLoader src="/static/images/supportIcon.svg" />
+            </a>
           </Link>
         </div>
         <Menu />
@@ -58,5 +45,26 @@ export default ({ children }) => (
 
       <Footer />
     </div>
+    <style jsx>
+      {`
+        .support {
+          color: #000;
+          border: 1px solid #12890e;
+          padding-left: 30px;
+          border-radius: 50px;
+          padding-right: 30px;
+          line-height: 30px;
+          font-size: 15px;
+          font-weight: bold;
+          margin-top: 10px;
+          background-color: #efefef;
+        }
+
+        .support:hover {
+          color: #000;
+          background-color: #e5e5e5;
+        }
+      `}
+    </style>
   </div>
 );

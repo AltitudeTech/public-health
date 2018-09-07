@@ -11,9 +11,9 @@ export default class CustomCard extends Component {
           <div className="card-header">A Message From the CEO</div>
           <div className="card-body">
             <img
-              src="http://placehold.it/150x150"
-              alt=""
-              class="img-fluid rounded-circle float-left float-sm-right float-md-left float-lg-right float-xl-left p-4"
+              src="/static/images/ceoHome.svg"
+              alt="CEO Image"
+              class="img-fluid float-left float-sm-right float-md-left float-lg-right float-xl-left p-4 pt-0"
             />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
