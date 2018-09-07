@@ -33,7 +33,7 @@ export default class Index extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <CustomCard title="CHALLENGE" />
+              <CustomCard title="CHALLENGES" />
             </div>
             <div className="col-md-6">
               <CustomCard title="SOLUTIONS" />
