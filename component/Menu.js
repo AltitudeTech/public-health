@@ -32,7 +32,7 @@ export default class extends Component {
           {`
             nav {
               display: flex;
-              justify-content: space-between;
+              justify-content: space-around;
               vertical-align: middle;
             }
             nav a {

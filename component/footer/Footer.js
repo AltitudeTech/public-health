@@ -17,22 +17,22 @@ export default class Footer extends Component {
               <div className="col-12 col-md-2">
                 <ul className="list-unstyled text-small">
                   <li>
-                    <a className="" href="#">
+                    <a className="" href="/about">
                       About
                     </a>
                   </li>
                   <li>
-                    <a className="" href="#">
+                    <a className="" href="/services">
                       Services
                     </a>
                   </li>
                   <li>
-                    <a className="" href="#">
+                    <a className="" href="/partners">
                       Partners
                     </a>
                   </li>
                   <li>
-                    <a className="" href="#">
+                    <a className="" href="/contact">
                       Contact
                     </a>
                   </li>
@@ -41,34 +41,28 @@ export default class Footer extends Component {
                       Publications
                     </a>
                   </li>
-                  <li>
-                    <a className="" href="#">
-                      Last time
-                    </a>
-                  </li>
                 </ul>
-                <small className="d-block mb-3 ">&copy; 2018</small>
               </div>
-              <div className="col-6 col-md-2">
+              <div className="col-12 col-md-2">
                 <ul className="list-unstyled text-small">
                   <li>
-                    <a className="" href="#">
+                    <a className="" href="/privacypolicy">
                       Privacy Policy
                     </a>
                   </li>
                   <li>
-                    <a className="" href="#">
+                    <a className="" href="/termsofuse">
                       Terms of Use
                     </a>
                   </li>
                   <li>
-                    <a className="" href="#">
+                    <a className="" href="newsandmedia">
                       News & Media
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className="col-6 col-md-4 text-center">
+              <div className="col-12 col-md-4 text-center">
                 <SvgLoader src="/static/images/newsletter.svg" />
                 <ul className="list-unstyled text-small">
                   <li>Sign up for our free newsletter</li>
@@ -81,31 +75,29 @@ export default class Footer extends Component {
               </div>
               <div className="col-6 col-md-4">
                 <ul className="list-unstyled text-small">
-                  <li className="socials">
+                  <li className="socials mb-2">
                     <Twitter />
                     <Instagram />
                     <Facebook />
                     <br />
                   </li>
                   <li>
-                    <br />
                     <a className="" href="#">
                       Call us : XXXX XXX XXXX
                     </a>
                   </li>
                   <li>
-                    <br />
                     <a className="" href="#">
                       2018 Public Health International. All Rights Reserved.
                     </a>
                   </li>
-                  <li>
-                    <br />
+                  {/* <li>
                     <a className="" href="#">
                       2018 Public Health International. All Rights Reserved.
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
+                <small className="d-block mb-3 ">2018 Public Health International. All Rights Reserved.</small>
               </div>
             </div>
           </footer>
