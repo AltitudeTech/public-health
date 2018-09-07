@@ -12,7 +12,7 @@ export default class Services extends Component {
         </Head>
         <div className="container">
           <Service name="School Health" />
-          <Service name="Pregnancy & Contraception" />
+          <Service name="Pregnancy & Contraceptives" />
           <Service name="Cancer Prevention" />
           <Service name="Obesity in Women" />
           <Service name="Drug Abuse" />
