@@ -16,16 +16,14 @@ export default class Index extends Component {
           style={{
             backgroundImage: "url('/static/images/indexBanner.svg')",
             backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
+            backgroundSize: "cover",
             backgroundPosition: "0 0",
-            height: "80vh"
+            height: "50vh",
+            borderRadius: "0px"
           }}
         />
         <div className="container">
-          <h2
-            className="text-center text-success"
-            style={{ fontWeight: "bolder" }}
-          >
+          <h2 className="text-success">
             Nulla pulvinar eleifend sem. Aliquam erat volutpat. Aenean placerat.
             Integer imperdiet lectus quis justo. Nulla turpis magna.
           </h2>
@@ -53,6 +51,20 @@ export default class Index extends Component {
             </div>
           </div>
         </div>
+        <style jsx>{`
+          h2 {
+            font-weight: bolder;
+            text-align: center;
+            transition: all linear 150px;
+          }
+          @media (max-width: 578px) {
+            h2 {
+              font-weight: bold;
+              text-align: left;
+              font-size: 25px;
+            }
+          }
+        `}</style>
       </Layout>
     );
   }

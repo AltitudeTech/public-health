@@ -56,6 +56,11 @@ export default class CustomCard extends Component {
             .card-body {
               background-color: #e5e5e5;
             }
+            @media (max-width: 438px) {
+              .card-header {
+                font-size: 18px;
+              }
+            }
           `}
         </style>
       </Fragment>

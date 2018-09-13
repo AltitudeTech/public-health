@@ -19,24 +19,19 @@ export default ({ children }) => (
     </Head>
     <div className="container-fluid">
       <header>
-        <div
-          className="container"
-          style={{
-            padding: "15px 0px",
-            display: "flex",
-            justifyContent: "space-between"
-          }}
-        >
-          <Link>
-            <a>
-              <SvgLoader src="/static/images/phlogo.svg" />
-            </a>
-          </Link>
-          <Link href="/support">
-            <a className="btn btn-link support">
-              SUPPORT <SvgLoader src="/static/images/supportIcon.svg" />
-            </a>
-          </Link>
+        <div className="container">
+          <nav className="navbar">
+            <Link>
+              <a>
+                <SvgLoader src="/static/images/phlogo.svg" />
+              </a>
+            </Link>
+            <Link href="/support">
+              <a className="btn btn-link support">
+                <SvgLoader src="/static/images/supportIcon.svg" />
+              </a>
+            </Link>
+          </nav>
         </div>
         <Menu />
       </header>
@@ -58,11 +53,35 @@ export default ({ children }) => (
           font-weight: bold;
           margin-top: 10px;
           background-color: #efefef;
+          transition: all linear 250ms;
+        }
+        .support::before {
+          content: "SUPPORT ";
         }
 
         .support:hover {
           color: #000;
           background-color: #e5e5e5;
+        }
+        @media (max-width: 768px) {
+          .support {
+            color: #000;
+            padding-left: 10px;
+            padding-right: 10px;
+            line-height: 30px;
+            font-size: 15px;
+          }
+          .navbar__Items--right {
+            margin-left: 0;
+          }
+          .support::before {
+            content: " ";
+          }
+        }
+        @media (max-width: 425px) {
+          .support {
+            display: none;
+          }
         }
       `}
     </style>

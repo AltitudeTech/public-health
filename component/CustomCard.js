@@ -7,7 +7,7 @@ export default class CustomCard extends Component {
   render() {
     return (
       <Fragment>
-        <div classNameName="card">
+        <div className="card">
           <div className="card-header bg-green">{this.props.title}</div>
           <div className="card-body">
             <p className="card-title">
@@ -66,6 +66,21 @@ export default class CustomCard extends Component {
             }
             .card-body {
               background-color: #e5e5e5;
+            }
+            @media (max-width:438px){
+              .card-header{
+                font-size:18px ;
+              }
+              .card-title ul li{
+                font-size:14px ;
+              }
+              a {
+                padding: 5px 20px;
+                font-size:12px ;
+              }
+              .card{
+                margin-top : 20px ;
+              }
             }
           `}
         </style>

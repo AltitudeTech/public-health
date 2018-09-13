@@ -17,9 +17,10 @@ export default class Index extends Component {
           style={{
             backgroundImage: "url('/static/images/indexBanner.svg')",
             backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
+            backgroundSize: "cover",
             backgroundPosition: "0 0",
-            height: "80vh"
+            height: "50vh",
+            borderRadius: "0px"
           }}
         />
         <div className="container">

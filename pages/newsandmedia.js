@@ -17,7 +17,8 @@ export default class Services extends Component {
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
             backgroundPosition: "0 0",
-            height: "80vh"
+            height: "50vh",
+            borderRadius: "0px"
           }}
         />
         <div className="container">
