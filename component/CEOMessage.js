@@ -13,7 +13,7 @@ export default class CustomCard extends Component {
             <img
               src="/static/images/ceoHome.svg"
               alt="CEO Image"
-              class="img-fluid float-left float-sm-right float-md-left float-lg-right float-xl-left p-4 pt-0"
+              className="img-fluid float-left float-sm-right float-md-left float-lg-right float-xl-left p-4 pt-0"
             />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
